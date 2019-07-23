@@ -42,7 +42,7 @@ void quickSort(int *A, int startIndex, int endIndex){
 }
 
 int main(){
-    int A[] = {5, 8, -9, 7, 47, 12, 6, 58, 3, 1, -12, 6, -12};
+    int A[] = {5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17};
     int endIndex = sizeof(A)/sizeof(A[0]);
     quickSort(A, 0, endIndex-1);
     for(int i=0;i<endIndex;++i) printf("%d  ", A[i]);
